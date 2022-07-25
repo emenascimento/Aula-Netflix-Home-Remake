@@ -1,4 +1,5 @@
-# Aula-Netflix-Home-Remake
+# Remake página inicial Netflix
+
 Bootcamp - Digital Innovation One - Recriando a interface da página inicial da Netflix.
 
 Fora desenvolvida uma página de catálogo similar a Netflix, utilizando HTML, CSS conforme o Bootcamp propôs ao decorrer do curso.
