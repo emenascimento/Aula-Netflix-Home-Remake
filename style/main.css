@@ -1,0 +1,175 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+/* Elementos base */
+body{
+    background: var(--preta);
+    font-family: 'Roboto';
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+header nav a{
+
+    list-style-type: none;
+    text-decoration: none;
+    color: #F9F9F9;
+    margin-left: 20px;
+}
+
+header nav a:hover{
+    color: #aaaaaa;
+    transition: .4s ease all;
+
+}
+
+nav{
+    height: 50px;
+}
+
+/* Coisas relacionadas a serie principal */
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/wanda-vision.jpg');
+
+
+    background-size: cover;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.serie-principal .descricao{
+    font-size: 20px;
+
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-family: 'Marvel', sans-serif;
+    font-size: 50px;
+
+    margin-left: 5px;
+    margin-top: 5%;
+}
+
+.botao{
+
+    font-size: 12px;
+
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+
+
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .4s ease all;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.serie-principal .container{
+    width: 70%;
+}
+
+.top-10{
+    font-size: 20px;
+
+    width: flex;
+    display: block;
+
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+/* Drop Down Menu*/
+
+.criar-acc{
+    background-color: var(--vermelho);
+}
+
+.ulmain{
+    width: 90%;
+    margin: auto;
+}
+
+.m1{
+    list-style-type: none;
+    line-height: 50px;
+    float: left;
+}
+
+.hide{
+    background-color: var(--preta);
+    list-style-type: none;
+    max-width: 0;
+    opacity: 0%;
+
+}
+
+.lg1{
+    background-color: var(--preta);
+
+}
+
+.lg1, .criar-acc{
+    list-style-type: none ;
+    width: 120px;
+
+}
+
+.dp-itens{
+    transition: all 0.4s;
+}
